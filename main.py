@@ -33,6 +33,6 @@ def gcd(numbers):
 
 
 if __name__ == '__main__':
-    numbers = [12, 15, 21]
-    result = gcd(numbers)
+    demo_numbers = [12, 15, 21]
+    result = gcd(demo_numbers)
     print(result)  # Sollte 3 ausgeben
