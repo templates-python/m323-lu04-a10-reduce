@@ -1,3 +1,8 @@
+"""Größter gemeinsamer Teiler mit reduce.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu04/aufgaben/reduce2
+"""
+
 from functools import reduce
 
 
@@ -30,6 +35,6 @@ def gcd(numbers):
 
 
 if __name__ == '__main__':
-    numbers = [12, 15, 21]
-    result = gcd(numbers)
+    demo_numbers = [12, 15, 21]
+    result = gcd(demo_numbers)
     print(result)  # Sollte 3 ausgeben
