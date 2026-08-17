@@ -1,3 +1,8 @@
+"""Größter gemeinsamer Teiler mit reduce.
+
+Aufgabenstellung: https://wiki.bzz.ch/modul/m323/learningunits/lu04/aufgaben/reduce2
+"""
+
 from functools import reduce
 
 
